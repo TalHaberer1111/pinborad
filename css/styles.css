@@ -5,3 +5,38 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+body {
+  background: #fff url(../img/cork-board.jpg);
+  margin: 100px;
+}
+
+.Photo img {
+  height: 320px;
+  width: 296px;
+
+}
+
+.Photo:before {
+  content: url('../img/picture.jpg');
+  position: absolute;
+  top: 136px;
+  left: 142px;
+
+}
+
+.bear img {
+  height:550px;
+  width: 650px;
+  float: right;
+
+}
+
+.carebear img {
+ height: 350px;
+ width: 450px;
+ position: absolute;
+ top: 485px;
+ left: 560px;
+
+}
