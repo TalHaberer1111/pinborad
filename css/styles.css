@@ -28,7 +28,14 @@ body {
 .bear img {
   height:550px;
   width: 650px;
-  float: right;
+  position: absolute;
+  top: 426px;
+  left: 478px;
+  -webkit-transform: rotate(12.5deg);
+   -moz-transform: rotate(12.5deg);
+     -ms-transform: rotate(12.5deg);
+       -o-transform: rotate(12.5deg);
+         tranform: rotate(12.5deg);
 
 }
 
@@ -36,7 +43,27 @@ body {
  height: 350px;
  width: 450px;
  position: absolute;
- top: 485px;
- left: 560px;
+ top: 482px;
+ left: 569px;
+ -webkit-transform: rotate(12.5deg);
+  -moz-transform: rotate(12.5deg);
+    -ms-transform: rotate(12.5deg);
+      -o-transform: rotate(12.5deg);
+        tranform: rotate(12.5deg);
+
+}
+
+.pin img {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+
+.pin:before {
+  content:url('../img/dart.png');
+  position: absolute;
+  -webkit-transform: rotate(40.5deg);
+  bottom: 10px;
+  left: 85px;
 
 }
